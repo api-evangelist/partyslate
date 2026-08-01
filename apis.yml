@@ -1,7 +1,13 @@
 aid: partyslate
 name: PartySlate
-description: PartySlate is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: PartySlate is a Chicago-based dual marketplace and SaaS platform for the events industry,
+  connecting people planning weddings, galas, corporate events, birthdays, and holiday parties with the
+  leading venues, event professionals, and vendors across the country. The photo-rich platform lets
+  vendors showcase their work through millions of real event photos, build networks of industry partners,
+  and connect directly with prospective clients, while PartySlate Pro provides venues, planners, and
+  vendors an AI-powered SaaS suite to organize, search, and share their photo portfolios with Canva
+  integration and content-management tools built for events. No public developer API or documentation
+  surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/partyslate/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Events
+- Event Planning
+- Marketplace
+- Venues
+- Weddings
+- SaaS
+- Vendors
+image: https://www.partyslate.com/favicon.ico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/partyslate-domain-security.yml
 - type: Website
-  url: https://partyslate.com/
+  url: https://www.partyslate.com/
+- type: About
+  url: https://www.partyslate.com/about
+- type: SignUp
+  url: https://www.partyslate.com/users/sign_up
+- type: Login
+  url: https://www.partyslate.com/users/sign_in
+- type: TermsOfService
+  url: https://www.partyslate.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.partyslate.com/privacy-policy
+- type: Support
+  url: mailto:contact@partyslate.com
+- type: Portal
+  url: https://pro.partyslate.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
